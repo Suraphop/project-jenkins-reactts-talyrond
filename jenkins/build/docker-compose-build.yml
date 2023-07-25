@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   app:
-    image: "micdevops/talyrond-frontend-project:$BUILD_TAG"
+    image: "micdevops/talyrond-frontend-project:1.0.0"
     build:
       context: .
-      dockerfile: Dockerfile-python
+      dockerfile: Dockerfile-reactts
