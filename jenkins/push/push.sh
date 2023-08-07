@@ -4,7 +4,7 @@ echo "********************"
 echo "** Pushing image ***"
 echo "********************"
 
-IMAGE="talyrond-frontend-project"
+IMAGE="nat-talyrond-frontend"
 
 echo "** Logging in ***"
 docker login -u devopsmic -p $DOCKER_PASSWORD
